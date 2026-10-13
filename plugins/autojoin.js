@@ -1,4 +1,4 @@
-const { cmd } = require("../command");
+uconst { cmd } = require("../command");
 const config = require("../config");
 
 // Auto join when bot receives group invite
@@ -20,7 +20,7 @@ cmd({
             
             // Send welcome message to the group
             await conn.sendMessage(groupJid, {
-                text: `✅ *NYX MD Bot Joined*\n\n👋 Hello! I'm NYX MD Bot\n\n📋 Type .menu to see all available commands\n\n🔗 Group Link Setup Complete!\n\n*Happy using the bot!*`
+                text: `✅ *KEVOO MD Bot Joined*\n\n👋 Hello! I'm KEVOO MD Bot\n\n📋 Type .menu to see all available commands\n\n🔗 Group Link Setup Complete!\n\n*Happy using the bot😅!*`
             });
             
         } catch (joinErr) {
