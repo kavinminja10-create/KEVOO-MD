@@ -13,8 +13,8 @@ cmd({
 }, async (conn, mek, m, { from, sender, reply }) => {
     try {
         const prefix = getPrefix();
-        const time = moment().tz(config.TIMEZONE || 'Africa/Nairobi').format('HH:mm:ss');
-        const date = moment().tz(config.TIMEZONE || 'Africa/Nairobi').format('dddd, DD MMMM YYYY');
+        const time = moment().tz(config.TIMEZONE || 'Africa/Dodoma').format('HH:mm:ss');
+        const date = moment().tz(config.TIMEZONE || 'Africa/Dodoma').format('dddd, DD MM YYYY');
 
         const convertRows = [
             { title: "Text to Sticker", rowId: `${prefix}tosticker`, description: "Convert text to sticker" },
@@ -24,7 +24,7 @@ cmd({
 
         const listMessage = {
             text: "*🔄 CONVERT MENU*\n\nSelect a command below:",
-            footer: `🌟 NYX-XD Bot | Blaze Tech 🌟\n👤 User: @${sender.split('@')[0]}\n📅 ${time} • ${date}`,
+            footer: `🌟 KEVOO MD Bot | Kevoo Tech 🌟\n👤 User: @${sender.split('@')[0]}\n📅 ${time} • ${date}`,
             buttonText: "Open Convert Menu",
             sections: [{ title: "Convert Commands", rows: convertRows }],
             headerType: 1,
