@@ -63,7 +63,7 @@ ${translatedTafsirEnglish.text}`;
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363424512102809@newsletter',
-            newsletterName: 'NYX MD',
+            newsletterName: 'KEVOO MD',
             serverMessageId: 143
           }
         }
@@ -452,7 +452,7 @@ cmd({
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
               newsletterJid: '120363424512102809@newsletter',
-              newsletterName: 'NYX MD',
+              newsletterName: 'KEVOO MD',
               serverMessageId: 143
             }
           }
