@@ -15,11 +15,11 @@ cmd({
     async (conn, mek, m, { from, sender, isGroup, reply }) => {
         try {
             const prefix = getPrefix();
-            const time = moment().tz(config.TIMEZONE || 'Africa/Nairobi').format('HH:mm:ss');
+            const time = moment().tz(config.TIMEZONE || 'Africa/Dodoma').format('HH:mm:ss');
             const date = moment().format('DD/MM/YYYY');
 
             const caption = `╔══════════════════════╗
-   ✨ *NYX-XD MENU PANEL* ✨
+   ✨ *KEVOO XD MENU PANEL* ✨
 ╚══════════════════════╝
 
 👤 User: @${sender.split("@")[0]}
@@ -30,7 +30,7 @@ _Select a menu below 👇_`;
 
             const listMessage = {
                 text: caption,
-                footer: `🌟 NYX-XD Bot | ${config.OWNER_NAME} 🌟\n👤 User: @${sender.split('@')[0]}\n📅 ${time} • ${date}`,
+                footer: `🌟 KEVOO MD Bot | ${config.OWNER_NAME} 🌟\n👤 User: @${sender.split('@')[0]}\n📅 ${time} • ${date}`,
                 buttonText: "Select Menu",
                 sections: [
                     {
