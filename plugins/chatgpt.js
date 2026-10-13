@@ -138,7 +138,7 @@ ${responseText}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 💡 *Tip:* Use .resetai to clear conversation history
-✨ Powered by AI | NYX Bot`;
+✨ Powered by AI | KEVOO Bot`;
 
         await conn.sendMessage(from, { text: finalMessage }, { quoted: mek });
 
