@@ -19,7 +19,7 @@ cmd({
             const date = moment().format('DD/MM/YYYY');
 
             const caption = `╔══════════════════════╗
-   ✨ *KEVOO XD MENU PANEL* ✨
+   ✨ *KEVOO MD MENU PANEL* ✨
 ╚══════════════════════╝
 
 👤 User: @${sender.split("@")[0]}
