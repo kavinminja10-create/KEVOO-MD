@@ -94,7 +94,7 @@ cmd({
     }
 
     menu += `\n\n╔════════════════════════════════╗
-║   🌟 ${config.DESCRIPTION || toUpperStylized('Explore the power of NYX MD')} 🌟   ║
+║   🌟 ${config.DESCRIPTION || toUpperStylized('Explore the power of KEVOO MD')} 🌟   ║
 ╚════════════════════════════════╝\n\n*📱 Need help?*\n🔗 Group: ${config.GROUP_LINK ? '[Join](' + config.GROUP_LINK + ')' : 'Not Set'}\n📢 Channel: ${config.CHANNEL_LINK ? '[Follow](' + config.CHANNEL_LINK + ')' : 'Not Set'}\n\n*Made with ❤️ by KEVOO TECH* | *v3.0.0*`;
 
     // Context info
@@ -104,7 +104,7 @@ cmd({
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: config.NEWSLETTER_JID || '120363424512102809@newsletter',
-        newsletterName: config.OWNER_NAME || toUpperStylized('NYX MD'),
+        newsletterName: config.OWNER_NAME || toUpperStylized('KEVOO MD'),
         serverMessageId: 143
       }
     };
