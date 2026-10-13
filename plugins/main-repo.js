@@ -29,9 +29,9 @@ cmd({
 
             // Format the repository information in new stylish format
             const formattedInfo = `
-*┏────〘 *NYX* 〙───⊷*
+*┏────〘 *KEVOO MD* 〙───⊷*
 *┃* *📌 Repository Name:* ${repoData.name}
-*┃* *👑 Owner:* BLAZE TEAM
+*┃* *👑 Owner:* KEVOO
 *┃* *⭐ Stars:* ${repoData.stargazers_count}
 *┃* *⑂ Forks:* ${repoData.forks_count}
 *┃* *📝 Description:* ${repoData.description || '*World Best WhatsApp Bot powered by NYX MD*'}
@@ -49,7 +49,7 @@ cmd({
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363424512102809@newsletter',
-                        newsletterName: 'NYX MD',
+                        newsletterName: 'KEVOO MD',
                         serverMessageId: 143
                     }
                 }
