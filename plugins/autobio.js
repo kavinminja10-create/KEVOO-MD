@@ -17,10 +17,10 @@ const fallbackQuotes = [
     "Life is a journey, enjoy it!"
 ];
 
-// Function to get Kenya time and date
+// Function to get Tanzania time and date
 function getKenyaTime() {
     const options = {
-        timeZone: 'Africa/Nairobi',
+        timeZone: 'Africa/Dodoma',
         hour12: true,
         hour: 'numeric',
         minute: 'numeric',
@@ -32,14 +32,14 @@ function getKenyaTime() {
     };
     
     const now = new Date();
-    const kenyaTime = now.toLocaleString('en-US', options);
+    const tanzaniaTime = now.toLocaleString('en-US', options);
     return kenyaTime;
 }
 
 cmd({
     pattern: 'autobio',
     alias: ['autoabout'],
-    desc: 'Toggle automatic bio updates with random quotes and Kenya time',
+    desc: 'Toggle automatic bio updates with random quotes and Tanzania time',
     category: 'misc',
     filename: __filename,
     usage: `${config.PREFIX}autobio [on/off] [text]`
@@ -84,11 +84,11 @@ cmd({
                 `│\n` +
                 `│ 🔖 *ᴘʟᴀᴄᴇʜᴏʟᴅᴇʀs:*\n` +
                 `│ ➸ {quote} - ʀᴀɴᴅᴏᴍ ᴏᴜᴏᴛᴇ\n` +
-                `│ ➸ {time} - ᴋᴇɴʏᴀ ᴛɪᴍᴇ & ᴅᴀᴛᴇ\n` +
+                `│ ➸ {time} - TANZANIA ᴛɪᴍᴇ & ᴅᴀᴛᴇ\n` +
                 `│\n` +
                 `│ 💡 *sᴛᴀᴛᴜs:* ${config.AUTO_BIO === "true" ? 'ON' : 'OFF'}\n` +
                 `│ 📝 *ᴛᴇxᴛ:* "${config.AUTO_BIO_TEXT || defaultBio}"\n` +
-                `│ 🕒 *ᴋᴇɴʏᴀ ᴛɪᴍᴇ:* ${getKenyaTime()}\n` +
+                `│ 🕒 *TANZANIA ᴛɪᴍᴇ:* ${getTanzaniaTime()}\n` +
                 `╰──────────────┈⊷`
             );
         }
@@ -119,7 +119,7 @@ async function startAutoBio(conn, bioText) {
     // Update immediately on start
     try {
         const quote = await fetchQuote();
-        const kenyaTime = getKenyaTime();
+        const TanzaniaTime = getTanzaniaTime();
         const formattedBio = bioText
             .replace('{quote}', quote)
             .replace('{time}', kenyaTime);
@@ -132,7 +132,7 @@ async function startAutoBio(conn, bioText) {
     bioInterval = setInterval(async () => {
         try {
             const quote = await fetchQuote();
-            const kenyaTime = getKenyaTime();
+            const TanzaniaTime = getTanzaniaTime();
             const formattedBio = bioText
                 .replace('{quote}', quote)
                 .replace('{time}', kenyaTime);
@@ -142,7 +142,7 @@ async function startAutoBio(conn, bioText) {
             setTimeout(async () => {
                 try {
                     const quote = await fetchQuote();
-                    const kenyaTime = getKenyaTime();
+                    const TanzaniaTime = getTanzanisTime();
                     const formattedBio = bioText
                         .replace('{quote}', quote)
                         .replace('{time}', kenyaTime);
