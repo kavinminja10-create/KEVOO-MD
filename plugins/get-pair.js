@@ -5,9 +5,9 @@ cmd({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "✅",
-    desc: "Get pairing code for NYX-MD bot",
+    desc: "Get pairing code for KEVOO MD bot",
     category: "download",
-    use: ".pair 25562741***",
+    use: ".pair 25561801***",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, senderNumber, reply }) => {
     try {
@@ -48,9 +48,9 @@ cmd({
     pattern: "pair2",
     alias: ["getpair2", "reqpair", "clonebot2"],
     react: "📉",
-    desc: "Get pairing code for IMMU-MD bot",
+    desc: "Get pairing code for KEVOO MD bot",
     category: "download",
-    use: ".pair 254727582XXX",
+    use: ".pair 255618010XXX",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, senderNumber, reply }) => {
     try {
