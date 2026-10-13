@@ -42,9 +42,9 @@ cmd({
 }, async (conn, mek, m, { from, sender, reply }) => {
   try {
     const prefix = getPrefix();
-    const timezone = config.TIMEZONE || 'Africa/Nairobi';
+    const timezone = config.TIMEZONE || 'Africa/Dodoma';
     const time = moment().tz(timezone).format('HH:mm:ss');
-    const date = moment().tz(timezone).format('dddd, DD MMMM YYYY');
+    const date = moment().tz(timezone).format('dddd, DD MM YYYY');
 
     const uptime = () => {
       let sec = process.uptime();
@@ -56,7 +56,7 @@ cmd({
 
     // 🌟 BEAUTIFUL HEADER WITH COLORS
     let menu = `╔════════════════════════════════╗
-║        ✨ *NYX MD* ✨       ║
+║        ✨ *KEVOO MD* ✨       ║
 ║    🤖 Command Menu v3.0.0 🤖   ║
 ╚════════════════════════════════╝
 
@@ -67,7 +67,7 @@ cmd({
 │ 🔑 Prefix: 「 ${config.PREFIX} 」
 │ 👑 Owner: ${config.OWNER_NAME}
 │ 🧩 Plugins: ${commands.length}
-│ 🛠️  Developer: BLAZE TECH
+│ 🛠️  Developer: KEVOO TECH
 │ 📅 ${time} • ${date}
 ╰─────────────────────────────────╯`;
 
@@ -95,7 +95,7 @@ cmd({
 
     menu += `\n\n╔════════════════════════════════╗
 ║   🌟 ${config.DESCRIPTION || toUpperStylized('Explore the power of NYX MD')} 🌟   ║
-╚════════════════════════════════╝\n\n*📱 Need help?*\n🔗 Group: ${config.GROUP_LINK ? '[Join](' + config.GROUP_LINK + ')' : 'Not Set'}\n📢 Channel: ${config.CHANNEL_LINK ? '[Follow](' + config.CHANNEL_LINK + ')' : 'Not Set'}\n\n*Made with ❤️ by BLAZE TECH* | *v3.0.0*`;
+╚════════════════════════════════╝\n\n*📱 Need help?*\n🔗 Group: ${config.GROUP_LINK ? '[Join](' + config.GROUP_LINK + ')' : 'Not Set'}\n📢 Channel: ${config.CHANNEL_LINK ? '[Follow](' + config.CHANNEL_LINK + ')' : 'Not Set'}\n\n*Made with ❤️ by KEVOO TECH* | *v3.0.0*`;
 
     // Context info
     const imageContextInfo = {
