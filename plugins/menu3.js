@@ -14,10 +14,10 @@ cmd({
 }, async (conn, mek, m, { from, sender, isGroup, reply }) => {
     try {
         const prefix = getPrefix();
-        const time = moment().tz(config.TIMEZONE || 'Africa/Nairobi').format('HH:mm:ss');
+        const time = moment().tz(config.TIMEZONE || 'Africa/Dodoma').format('HH:mm:ss');
         const date = moment().format('DD/MM/YYYY');
 
-        const menuText = `╭─❒ *NYX MD COMPACT MENU* ❒─╮
+        const menuText = `╭─❒ *KEVOO MD COMPACT MENU* ❒─╮
 │
 ├─ 👤 *User:* @${sender.split("@")[0]}
 ├─ ⏱️ *Uptime:* ${runtime(process.uptime())}
