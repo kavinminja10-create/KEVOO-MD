@@ -9,7 +9,7 @@ cmd({
   alias: ['dev', '0wnercontact'],
   desc: "Get owner number",
   category: "main",
-  react: "😇",
+  react: "😜",
   filename: __filename
 }, async (sock, m, msg, { from }) => {
   try {
@@ -56,7 +56,7 @@ cmd({
         'BEGIN:VCARD',
         'VERSION:3.0',
         `FN:${displayName} #${idx + 1}`,
-        `ORG:${config.BOT_NAME || 'NYX MD'};`,
+        `ORG:${config.BOT_NAME || 'KEVOO MD'};`,
         `TEL;type=CELL;type=VOICE;waid=${num}:${'+' + num}`,
         'END:VCARD'
       ].join('\n');
