@@ -8,8 +8,8 @@
       <stop offset="100%" stop-color="#0b0b16"/>
     </linearGradient>
 
-    <!-- NYX gradient -->
-    <linearGradient id="nyxGrad" x1="0" x2="1">
+    <!-- KEVOO gradient -->
+    <linearGradient id="kevooGrad" x1="0" x2="1">
       <stop offset="0%" stop-color="#8A2BE2"/>
       <stop offset="50%" stop-color="#00FFFF"/>
       <stop offset="100%" stop-color="#8A2BE2"/>
@@ -60,7 +60,7 @@
         font-size="18"
         font-family="Verdana"
         fill="#00FFFF">
-    BLAZE TECH
+    KEVOO TECH
   </text>
 
   <!-- ================= -->
@@ -74,7 +74,7 @@
         font-weight="bold"
         fill="url(#nyxGrad)"
         filter="url(#glow)">
-    NYX MD
+    KEVOO MD
   </text>
 
   <text x="50%" y="62%"
@@ -89,14 +89,14 @@
         text-anchor="middle"
         font-size="20"
         fill="#00FFFF">
-    👨‍💻 Developer: BLAZE TECH
+    👨‍💻 Developer: KEVOO TECH
   </text>
 
   <text x="50%" y="90%"
         text-anchor="middle"
         font-size="20"
         fill="#8A2BE2">
-    👑 Owner: T20_STARBOY
+    👑 Owner: KËVØØ
   </text>
 
 </svg>
