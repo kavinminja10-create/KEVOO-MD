@@ -19,7 +19,7 @@ cmd({
             const date = moment().format('DD/MM/YYYY');
 
             const caption = `╔══════════════════════╗
-   ✨ *KEVOO MD MENU PANEL* ✨
+   ✨ *KEVOO MD MENU LISTS* ✨
 ╚══════════════════════╝
 
 👤 User: @${sender.split("@")[0]}
@@ -48,7 +48,7 @@ _Select a menu below 👇_`;
                     }
                 ],
                 contextInfo: { mentionedJid: [sender] },
-                image: { url: config.MENU_IMAGE_URL || "https://files.catbox.moe/kbbm5e.jpg" },
+                image: { url: config.MENU_IMAGE_URL || "https://img.sanishtech.com/u/dedbde097c06a743da7968c910aeb1fd.png" },
                 headerType: 1
             };
 
