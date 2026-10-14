@@ -1,6 +1,6 @@
 # KEVOO MD - WhatsApp Bot
 <p align="center">
-  <img src="assets/kevoo-banner.svg" width="100%" />
+  <img src="assets/nyx-banner.svg" width="100%" />
 </p>
 
 <div align="center">
