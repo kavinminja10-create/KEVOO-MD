@@ -24,7 +24,7 @@ cmd({
             sections: [{ title: "Anime Commands", rows: animeRows }],
             headerType: 1,
             contextInfo: { mentionedJid: [sender] },
-            image: { url: "https://files.catbox.moe/kbbm5e.jpg" }
+            image: { url: "https://img.sanishtech.com/u/dedbde097c06a743da7968c910aeb1fd.png" }
         };
 
         await conn.sendMessage(from, listMessage, { quoted: mek });
