@@ -2,7 +2,6 @@
 <p align="center">
   <img src="assets/kevoo-banner.svg" width="100%" />
 </p>
-<img src="https://tmpfiles.org/dl/wtA9K6izEAIh/emmyhenz_1791937351369_xfjuqz.jpg"/>
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&lines=%F0%9F%94%A5+KEVOO+WHATSAPP+BOT+%F0%9F%94%A5;100%2B+Advanced+Features;Fully+Customizable;Lightning+Fast+Responses" />
