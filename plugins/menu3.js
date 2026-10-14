@@ -46,7 +46,7 @@ cmd({
         };
 
         await conn.sendMessage(from, {
-            image: { url: config.MENU_IMAGE_URL || "https://files.catbox.moe/kbbm5e.jpg" },
+            image: { url: config.MENU_IMAGE_URL || "https://img.sanishtech.com/u/dedbde097c06a743da7968c910aeb1fd.png" },
             caption: menuText,
             contextInfo: contextInfo
         }, { quoted: mek });
