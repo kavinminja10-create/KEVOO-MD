@@ -6,7 +6,7 @@
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&lines=%F0%9F%94%A5+KEVOO+MD+WHATSAPP+BOT+%F0%9F%94%A5;100%2B+Advanced+Features;Fully+Customizable;Lightning+Fast+Responses" />
 </div>
-<a'https://kommodo.ai/i/z68lJFTzJ3d5JXfQ6cws.jpg'/>
+<img src="https://img.sanishtech.com/u/dedbde097c06a743da7968c910aeb1fd.png" alt="168426" width="1254" height="1254" loading="lazy" style="max-width:100%;height:auto;">
 
 > The Ultimate Multi-Functional WhatsApp Automation Suite
 <a href="https://git.io/typing-hgm"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=2000&height=200&lines=KEVOO-MD-WHATSAPP-BOT" alt="Typing HGM" /></ab>
