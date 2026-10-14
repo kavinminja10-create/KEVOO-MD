@@ -50,7 +50,7 @@ Get a Session ID (pairing service):
 ---
 ## Deployment Options
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/blazetech-glitch/NYX)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kavinminja10-create/KEVOO-MD)
 [![Deploy to Railway](https://img.shields.io/badge/Deploy-Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app/new/template?template=https://github.com/blazetech-glitch/NYX)
 [![Deploy to Render](https://img.shields.io/badge/Deploy-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://dashboard.render.com/deploy?repo=https://github.com/blazetech-glitch/NYX)
 [![Deploy to Koyeb](https://img.shields.io/badge/Deploy-Koyeb-121212?style=for-the-badge&logo=koyeb&logoColor=white)](https://app.koyeb.com/deploy?repository=https://github.com/blazetech-glitch/NYX)
