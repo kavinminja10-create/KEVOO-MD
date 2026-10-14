@@ -1,4 +1,4 @@
-name: nyx-md
+name: kevoomd
 services:
   - name: kevoomd-service
     type: web
