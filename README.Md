@@ -4,11 +4,11 @@
 </p>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2800&pause=1000&color=8A2BE2&center=true&vCenter=true&width=300&lines=%F0%9F%94%A5+KEVOO+MD+BOT+%F0%9F%94%A5;100%2B+Advanced+Features;Fully+Customizable;Lightning+Fast+Responses" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&lines=%F0%9F%94%A5+KEVOO+MD+WHATSAPP+BOT+%F0%9F%94%A5;100%2B+Advanced+Features;Fully+Customizable;Lightning+Fast+Responses" />
 </div>
 
 > The Ultimate Multi-Functional WhatsApp Automation Suite
-<a href="https://git.io/typing-hgm"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=500&height=200&lines=KEVOO-MD-WHATSAPP-BOT" alt="Typing HGM" /></a>
+<a href="https://git.io/typing-hgm"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=2000&height=200&lines=KEVOO-MD-WHATSAPP-BOT" alt="Typing HGM" /></a>
 
 [![Node.js](https://img.shields.io/badge/Node.js-%3E=20-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
